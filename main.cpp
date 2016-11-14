@@ -1,6 +1,6 @@
 #include <iostream>
 #include <boost/shared_ptr.hpp>
-
+using namespace std;
 int main()
 {
     boost::shared_ptr<int> a(new int(10));
